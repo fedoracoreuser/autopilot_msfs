@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs />
+  <inputs>
+    <config guid="2f7a463e-d739-4a1a-a17d-007262fdf15f">
+      <active>true</active>
+      <description>HDG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="HDG ENC" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AS1000_MFD_HEADING_INC" />
+          <onRelease />
+        </button>
+        <encoder>
+          <onLeft type="MSFS2020EventIdInputAction" eventId="AS1000_MFD_HEADING_DEC" />
+          <onLeftFast />
+          <onRight type="MSFS2020EventIdInputAction" eventId="AS1000_MFD_HEADING_INC" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="c1d02d00-2b0a-4118-84af-e911c48fd067" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="fe0eeaba-a745-46f4-869e-53a8bb21280d">
+      <active>true</active>
+      <description>HDG Hold</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S1 HDG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_HDG_HOLD" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="c1d02d00-2b0a-4118-84af-e911c48fd067" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="85114288-5728-465a-967b-860b0c3b51a3">
+      <active>true</active>
+      <description>HDG Sync</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="HDG ENC PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AS1000_MFD_HEADING_SYNC" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ef318ddc-e459-4ddc-b91c-dc332b87a778">
+      <active>true</active>
+      <description>CRS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="CRS ENC" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020EventIdInputAction" eventId="AS1000_MFD_CRS_DEC" />
+          <onLeftFast />
+          <onRight type="MSFS2020EventIdInputAction" eventId="AS1000_MFD_CRS_INC" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="392e65e7-0fb7-41ba-bc33-390d37a574ed">
+      <active>true</active>
+      <description>CRS Dir</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="CRS ENC PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AS1000_MFD_DIRECTTO" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c6f48c19-5426-451e-bbac-b2fb62dae66c">
+      <active>true</active>
+      <description>APR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S2 APR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_APR_HOLD" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="95c2c3e8-11a1-4e46-b531-a02d87566bfb">
+      <active>true</active>
+      <description>BC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S3 BC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_BC_HOLD" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1a7bb455-4a3d-4003-bb30-2e29b9941128">
+      <active>true</active>
+      <description>NAV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S4 NAV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_NAV1_HOLD" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="f987075f-be90-4658-8285-15856942de15">
+      <active>true</active>
+      <description>FD</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S5 FD" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="TOGGLE_FLIGHT_DIRECTOR" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4c153a73-8ac5-4fa5-a44a-1f62fb3f2db0">
+      <active>true</active>
+      <description>BANK</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S6 BANK" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="TBM930_AUTOPILOT_MAX_BANK_TOGGLE" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0e061cbe-0cdc-43af-b12b-f6da38dbc344">
+      <active>true</active>
+      <description>XFR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S7 XFR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="TBM930_AUTOPILOT_TOGGLE" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="49552162-5e09-4347-aa24-435b285bb975">
+      <active>true</active>
+      <description>AP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S8 AP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_MASTER" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0dff7f06-3555-4be7-a8d1-cd816b59e2f6">
+      <active>true</active>
+      <description>YD</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S9 YD " type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="YAW_DAMPER_TOGGLE" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7cc0c9b3-c21d-4152-95a8-19492a18527a">
+      <active>true</active>
+      <description>ALT Hold</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S10 ALT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_ALT_HOLD" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bcbe43e0-4042-4711-b9e7-bc3bbd42cec8">
+      <active>true</active>
+      <description>ALT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="ALT ENC" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020EventIdInputAction" eventId="AS1000_AP_ALT_DEC_100" />
+          <onLeftFast />
+          <onRight type="MSFS2020EventIdInputAction" eventId="AS1000_AP_ALT_INC_100" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="12527759-b3c9-45c3-af97-47ecbf0d998a">
+      <active>true</active>
+      <description>VS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S11 VS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_PANEL_VS_HOLD" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a804f27c-1631-4e3d-9d3d-dce820685d26">
+      <active>true</active>
+      <description>VNV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S12 VNV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AS1000_AP_VNAV_Push" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="14aea8fa-542a-46af-8417-f0fe178a518c">
+      <active>true</active>
+      <description>VS ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="VS ENC" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_PANEL_VS_HOLD" />
+          <onRelease />
+        </button>
+        <encoder>
+          <onLeft type="MSFS2020EventIdInputAction" eventId="AP_VS_VAR_DEC" />
+          <onLeftFast />
+          <onRight type="MSFS2020EventIdInputAction" eventId="AP_VS_VAR_INC" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c96473fb-f2d1-4439-b616-df1c78630a0c">
+      <active>true</active>
+      <description>VS PUSH</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="VS ENC PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="AP_PANEL_VS_HOLD" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ec747494-c3e5-4a6f-835e-18988290ad74">
+      <active>true</active>
+      <description>FLC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S13 FLC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="TBM930_AUTOPILOT_FLC_TOGGLE" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c7e3cfb6-5ed8-4986-9bd0-94637664d703">
+      <active>true</active>
+      <description>SPD</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=null" serial="Autopilot/ SN-94c-aea" name="S14 SPD" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="TBM930_AUTOPILOT_SPD_TOGGLE" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>

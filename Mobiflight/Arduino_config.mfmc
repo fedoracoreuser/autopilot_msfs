@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleName>Autopilot</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Encoder Name="HDG ENC" PinLeft="56" PinRight="55" EncoderType="0" />
+  <Button Name="HDG ENC PUSH" Pin="54" />
+  <Encoder Name="CRS ENC" PinLeft="59" PinRight="58" EncoderType="0" />
+  <Button Name="CRS ENC PUSH" Pin="57" />
+  <Encoder Name="ALT ENC" PinLeft="62" PinRight="61" EncoderType="0" />
+  <Button Name="ALT ENC PUSH" Pin="60" />
+  <Encoder Name="VS ENC" PinLeft="65" PinRight="64" EncoderType="0" />
+  <Button Name="S1 HDG" Pin="27" />
+  <Button Name="S2 APR" Pin="29" />
+  <Button Name="S3 BC" Pin="31" />
+  <Button Name="S4 NAV" Pin="33" />
+  <Button Name="S5 FD" Pin="35" />
+  <Button Name="S6 BANK" Pin="37" />
+  <Button Name="S7 XFR" Pin="39" />
+  <Button Name="S8 AP" Pin="41" />
+  <Button Name="S9 YD " Pin="43" />
+  <Button Name="S10 ALT" Pin="45" />
+  <Button Name="S11 VS" Pin="47" />
+  <Button Name="S12 VNV" Pin="49" />
+  <Button Name="S13 FLC" Pin="51" />
+  <Button Name="S14 SPD" Pin="53" />
+  <Button Name="VS ENC PUSH" Pin="63" />
+</Config>
